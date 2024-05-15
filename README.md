@@ -14,18 +14,10 @@ The development net is fully functional and allows for the deployment of smart c
 you need to create a new chain for the first time, or remove existing chain, run:
 ```
 # create new chain
-./new.sh
+./start.sh
 
 # remove chain
 ./clean.sh
-```
-if you want to keep the chain data, using the following scripts instead of new chain style:
-```
-# start existing chain
-./start.sh
-
-# stop existing chain
-./stop.sh
 ```
 
 You will see the following:
